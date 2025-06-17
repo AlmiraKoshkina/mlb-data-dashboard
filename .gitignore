@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Databases and temp files (unless needed in the repo)
+*.db
+!data/mlb.db  # exception — include this specific database if it's required
+
+# Streamlit config
+.streamlit/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Mac / Windows junk
+Thumbs.db
+ehthumbs.db
